@@ -1,0 +1,27 @@
+{
+  "name": "hex-to-uuid",
+  "version": "1.0.0",
+  "description": "Convert hex string representation into uuid utf8 string",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeRain/hex-to-uuid.git"
+  },
+  "keywords": [
+    "hex",
+    "uuid"
+  ],
+  "dependencies": {
+    "uuid-parse": "^1.0.0",
+    "validator": "^9.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "author": "Kirill Beresnev <derainberk@gmail.com>",
+  "license": "MIT"
+}
