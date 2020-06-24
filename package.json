@@ -1,13 +1,13 @@
 {
   "name": "hex-to-uuid",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Convert hex string representation into uuid utf8 string",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
   "engines": {
-    "node": "~12"
+    "node": ">=12"
   },
   "repository": {
     "type": "git",
